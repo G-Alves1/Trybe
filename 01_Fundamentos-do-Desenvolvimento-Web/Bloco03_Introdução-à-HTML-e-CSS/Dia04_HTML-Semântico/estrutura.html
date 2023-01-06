@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Minha página</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <header id="header">Cabeçalho</header>
+    <nav id="nav">
+      <ul class="nav-links">
+        <li><a href="">Home</a></li>
+        <li><a href="">Contato</a></li>
+        <li><a href="">Perfil</a></li>
+      </ul>
+    </nav>
+    <main id="group">
+      <article id="article">
+        <h2>Entendendo a diferença entre elementos block e inline</h2>
+        <section id="section">
+          <h3>Elementos Block</h3>
+          <p><b>Exemplos:</b> div, section, ul, li, head</p>
+          <ul>
+            <li>Ocupam 100% da largura do elemento página</li>
+            <li>
+              Ocupam a própria linha,, sendo posicionados abaixo do elemento
+              anterior
+            </li>
+            <li>A altura padrão é definida pelo tamanho do conteúdo</li>
+            <li>É possivel alterar as propriedades de tamanho e largura</li>
+            <li>É possivel alterar todas as propriedades de margem</li>
+          </ul>
+        </section>
+        <section id="section">
+          <h3>Elementos Inline</h3>
+          <p>
+            <b>Exemplos></b>
+            <span>a, span, b, i</span>
+            <i>etc ...</i>
+          </p>
+          <ul>
+            <li>Ocupam a largura do próprio conteúdo</li>
+            <li>
+              Dois ou mais elementos inline em sequência, são posicionados lado
+              a lado
+            </li>
+            <li>Não é possível alterar as propriedades de altura e largura</li>
+            <li>Somente é possível alterar as margens horizontais</li>
+            <li>
+              Ao aplicar float, automaticamente se transformam em elementos
+              block
+            </li>
+            <li>Se comporta como um texto</li>
+          </ul>
+        </section>
+        <section id="section">
+          <h3>Elementos inline-block</h3>
+          <ul>
+            <li>Ocupam a largura do próprio conteúdo</li>
+            <li>
+              Dois ou mais elementos inline-block em sequência, são posicionados
+              lado a lado
+            </li>
+            <li>É possivel alterar as propriedades de tamanho e largura</li>
+            <li>É possivel alterar todas as propriedades de margem</li>
+          </ul>
+        </section>
+      </article>
+      <aside id="aside">Barra lateral</aside>
+    </main>
+    <footer id="footer">Rodapé</footer>
+  </body>
+</html>
