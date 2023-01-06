@@ -1,0 +1,42 @@
+#exercicios3-2 {
+  width:65px;
+  color: orange;
+}
+
+#list {
+  background-color: blue;
+  color:white;
+}
+
+.p-ul-color {
+  background-color: green;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+  line-height: 50px;
+}
+
+body {
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#list1 {
+  background-color: yellow;
+}
+
+#list2 {
+  background-color: red;
+}
+
+#list3 {
+  background-color: brown;
+}
