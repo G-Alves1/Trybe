@@ -231,8 +231,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _Introdução - NoSQL_
-- [ ] 29-1: _MongoDB - Introdução_
+- [x] 29-1: _Introdução - NoSQL_
+- [x] 29-1: _MongoDB - Introdução_
 - [ ] 29-2: _Filter Operators_
 - [ ] 29-3: _Operadores de consulta_
 - [ ] 29-4: _Updates Simples_
