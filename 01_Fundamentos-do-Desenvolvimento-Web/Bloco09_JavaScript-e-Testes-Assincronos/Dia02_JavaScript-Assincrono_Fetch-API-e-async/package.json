@@ -1,0 +1,15 @@
+{
+  "name": "dia02_javascript-assincrono_fetch-api-e-async",
+  "version": "1.0.0",
+  "description": "**Para Fixar**",
+  "main": "apiScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.5"
+  }
+}
