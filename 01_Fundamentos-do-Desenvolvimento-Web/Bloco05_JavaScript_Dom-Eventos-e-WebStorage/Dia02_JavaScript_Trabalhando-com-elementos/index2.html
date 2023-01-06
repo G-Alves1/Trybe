@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      /*******1*******/
+      function h1() {
+        const elementH1 = document.createElement("h1");
+        elementH1.innerHTML = "Exercício 5.2 - JavaScript DOM";
+        const body = document.body;
+        body.appendChild(elementH1);
+      }
+      h1();
+
+      /*******2*******/
+      function main() {
+        const elementMain = document.createElement("main");
+        elementMain.className = "main-content";
+        const body = document.body;
+        body.appendChild(elementMain);
+      }
+      main();
+
+      /*******3-14*******/
+      function section() {
+        const elementSection = document.createElement("section");
+        elementSection.className = "center-content";
+        const elementMain = document.querySelector(".main-content");
+        elementMain.appendChild(elementSection);
+        const paiElementSection = elementSection.parentNode;
+        paiElementSection.style.backgroundColor = "whitesmoke";
+      }
+      section();
+
+      /*******4*******/
+      function p() {
+        const paragraph = document.createElement("p");
+        const elementSection = document.querySelector(".center-content");
+        paragraph.innerHTML =
+          "Mais uma noite como todas as anteriores. Pego minha caneca de café cheia, acendo meu ultimo cigarro e corro pra velha janela do quarto. Observo a noite fria e chuvosa, até parece confortável por um momento, se não fossem as dezenas de preocupações que me desmotivam a cada dia.";
+        elementSection.appendChild(paragraph);
+      }
+      p();
+
+      /*******5*******/
+      function sectionLeft() {
+        const elementSectionLeft = document.createElement("section");
+        elementSectionLeft.className = "left-content";
+        const elementMain = document.querySelector(".main-content");
+        elementMain.appendChild(elementSectionLeft);
+      }
+      sectionLeft();
+
+      /*******6-13*******/
+      function sectionRight() {
+        const elementSectionRight = document.createElement("section");
+        elementSectionRight.className = "right-content";
+        elementSectionRight.style.margin = "auto";
+        const elementMain = document.querySelector(".main-content");
+        elementMain.appendChild(elementSectionRight);
+      }
+      sectionRight();
+
+      /*******7*******/
+      function imageContainer() {
+        const elementImage = document.createElement("img");
+        elementImage.className = "small-image";
+        elementImage.src = "https://picsum.photos/200";
+        const elementSectionLeft = document.querySelector(".left-content");
+        elementSectionLeft.appendChild(elementImage);
+      }
+      imageContainer();
+
+      /*******8*******/
+      function list() {
+        const elementUl = document.createElement("ul");
+        const elementSectionRight = document.querySelector(".right-content");
+        elementSectionRight.appendChild(elementUl);
+
+        const extenso = [
+          "um",
+          "dois",
+          "tres",
+          "quatro",
+          "cinco",
+          "seis",
+          "sete",
+          "oito",
+          "nove",
+          "dez",
+        ];
+        for (let index in extenso) {
+          const elementLi = document.createElement("li");
+          elementLi.innerHTML = extenso[index];
+          elementSectionRight.appendChild(elementLi);
+        }
+      }
+      list();
+
+      /*******9-11******/
+      function h3() {
+        for (let index = 1; index <= 3; index += 1) {
+          const elementH3 = document.createElement("h3");
+          elementH3.className = "description";
+          elementH3.innerHTML = "Teste";
+          const elementMain = document.querySelector(".main-content");
+          elementMain.appendChild(elementH3);
+        }
+      }
+      h3();
+
+      /*******10*******/
+      function classH1() {
+        const elementH1 = document.querySelector("h1");
+        elementH1.className = "title";
+      }
+      titleH1();
+
+      /*******12*******/
+      /*
+      function removeSectionLeft() {
+        const elementSectionLeft = document.querySelector(".left-content");
+        const elementMain = document.querySelector(".main-content");
+        elementMain.removeChild(sectionLeft);
+      }
+      removeSectionLeft();
+      */
+
+      /*******15*******/
+      /*
+      ul.lastChild.remove();
+      ul.lastChild.remove();
+      */
+    </script>
+  </body>
+</html>
