@@ -1,0 +1,15 @@
+{
+  "name": "dia01-e-dia02_html-e-css_form-e-bibliotecas-javascript-e-frameworks-css",
+  "version": "1.0.0",
+  "description": "**Dia 01**",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "just-validate": "^1.5.0"
+  }
+}
