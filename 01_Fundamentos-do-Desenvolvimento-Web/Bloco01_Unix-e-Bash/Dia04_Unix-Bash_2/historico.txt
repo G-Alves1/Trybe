@@ -1,0 +1,5 @@
+  157  history | tail -5
+  158  cat > nomes.txt
+  159  cat nomes.txt cores.txt | sort > newArquivo.txt
+  160  history | tail -5
+  161  history | tail -5 >> historico.txt
