@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  frontend:
+    container_name: herocker_frontend
+    build:
+      context: ./
+    ports:
+      - "3000:3000"
+    stdin_open: true

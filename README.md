@@ -205,7 +205,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 25-1: _Introdução - Deploy_
 - [x] 25-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 25-2: _Deploy Docker & Heroku_
+- [x] 25-2: _Deploy Docker & Heroku_
 - [ ] 25-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 26: TypeScript
