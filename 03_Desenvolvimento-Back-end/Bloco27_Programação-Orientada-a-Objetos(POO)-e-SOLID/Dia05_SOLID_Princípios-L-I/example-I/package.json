@@ -1,0 +1,21 @@
+{
+  "name": "example-i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mysql": "^2.15.21",
+    "@types/redis": "^4.0.11",
+    "mysql": "^2.18.1",
+    "redis": "^3.1.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
