@@ -242,8 +242,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 30: MongoDB com Node.js e POO
 
 - [x] 30-1: _Mongoose e arquitetura MSC(camada Model)_
-- [ ] 30-1: _Mongoose e arquitetura MSC(camada Service e Controller)_
-- [ ] 30-2: _[Projeto - Car Shop]()_
+- [x] 30-2: _Mongoose e arquitetura MSC(camada Service e Controller)_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco 31: Projeto - App de Delivery
 
