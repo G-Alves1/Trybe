@@ -72,7 +72,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Introducao a Higher Order Functions_
+- [x] 8-1: _JavaScript ES6 - Introducao a Higher Order Functions_
 - [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
