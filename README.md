@@ -137,7 +137,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 17: Context API e React Hooks
 
-- [ ] 17-1: _React Hooks - useState e useEffect_
+- [x] 17-1: _React Hooks - useState e useEffect_
 - [ ] 17-2: _Context API_
 - [ ] 17-3: _Custom Hooks_
 - [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
