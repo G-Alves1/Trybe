@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      main,
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Exercício 5.1 - JavaEscripito</h1>
+    </header>
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      /*******1*******/
+      function changeText() {
+        let p1 = document.getElementsByTagName("p")[1];
+        p1.innerHTML = "Trabalhando na área que estou me especializando";
+      }
+      changeText();
+      
+      /*******2*******/
+      function changeColorMain() {
+        let mainContent = document.getElementsByClassName("main-content")[0];
+        mainContent.style.backgroundColor = "rgb(76,164,109)";
+      }
+      changeColorMain();
+
+      /*******3*******/
+      function changeColorCenter() {
+        let centerContent =
+          document.getElementsByClassName("center-content")[0];
+        centerContent.style.backgroundColor = "white";
+      }
+      changeColorCenter();
+
+      /*******4*******/
+      function correctHeader() {
+        let correctHeader = document.getElementsByClassName("title")[0];
+        correctHeader.innerHTML = "Exercício 5.1 - JavaScript";
+      }
+      correctHeader();
+
+      /*******5*******/
+      function printP() {
+        let allParagraph = document.getElementsByTagName("p");
+        for (let index = 0; index < allParagraph.length; index += 1) {
+          allParagraph[index].innerHTML = allParagraph[index].innerHTML.toUpperCase();
+        }
+      }
+      printP();
+
+      /*******6*******/
+      function showContent() {
+        let allParagraph = document.getElementsByTagName("p");
+        for (let index = 0; index < allParagraph.length; index += 1) {
+          console.log(allParagraph[index].innerHTML);
+        }
+      }
+      showContent();
+    </script>
+  </body>
+</html>
