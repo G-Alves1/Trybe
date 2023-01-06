@@ -1,0 +1,7 @@
+@import "bulma/css/bulma.css";
+
+.my-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
