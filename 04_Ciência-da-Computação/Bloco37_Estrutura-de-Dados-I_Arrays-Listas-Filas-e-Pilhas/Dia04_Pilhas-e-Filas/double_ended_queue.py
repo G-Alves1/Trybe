@@ -1,0 +1,38 @@
+from collections import deque
+
+# fila = deque()
+
+# fila.append('Felps')
+# fila.appendleft('João')
+# fila.append('Will')
+# fila.appendleft('Isaac')
+# fila.append('Rodrigo')
+# fila.appendleft('Eli')
+
+# print(fila)
+# fila.pop()
+# print(fila)
+# fila.popleft()
+# print(fila)
+# fila.pop()
+# print(fila)
+# fila.popleft()
+# print(fila)
+# fila.pop()
+# print(fila)
+# fila.popleft()
+
+
+fila_limitada = deque([],4)
+fila_limitada.append('Felps')
+print(fila_limitada)
+fila_limitada.appendleft('João')
+print(fila_limitada)
+fila_limitada.append('Will')
+print(fila_limitada)
+fila_limitada.appendleft('Isaac')
+print(fila_limitada)
+fila_limitada.append('Rodrigo')
+print(fila_limitada)
+fila_limitada.appendleft('Eli')
+print(fila_limitada)

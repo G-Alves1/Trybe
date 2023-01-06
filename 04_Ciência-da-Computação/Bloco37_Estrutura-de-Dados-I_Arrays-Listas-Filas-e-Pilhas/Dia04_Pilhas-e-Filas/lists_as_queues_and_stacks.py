@@ -1,0 +1,37 @@
+queue = list()
+stack = []
+
+
+#pilhas
+stack.append('Felps')
+stack.append('Will')
+stack.append('Rodrigo')
+stack.append('Isaac')
+stack.append('João')
+print(stack)
+stack.pop()
+print(stack)
+stack.pop()
+print(stack)
+stack.pop()
+print(stack)
+stack.pop()
+print(stack)
+stack.pop()
+
+#filas
+queue.append('felps')
+queue.append('Will')
+queue.append('Rodrigo')
+queue.append('Isaac')
+queue.append('João')
+print(queue)
+queue.pop(0)
+print(queue)
+queue.pop(0)
+print(queue)
+queue.pop(0)
+print(queue)
+queue.pop(0)
+print(queue)
+queue.pop(0)
