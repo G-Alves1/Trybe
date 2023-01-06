@@ -1,0 +1,6 @@
+node_modules
+coverage
+.nyc*
+__tests__
+jest.config.js
+tests/**/mocks/**

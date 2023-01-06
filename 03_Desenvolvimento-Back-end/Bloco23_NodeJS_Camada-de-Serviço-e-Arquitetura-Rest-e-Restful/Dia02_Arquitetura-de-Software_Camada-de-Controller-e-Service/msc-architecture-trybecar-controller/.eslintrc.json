@@ -1,0 +1,20 @@
+{
+    "env": {
+      "es2020": true
+    },
+    "extends": "trybe-backend",
+    "rules": {
+      "sonarjs/no-duplicate-string": ["error", 5]
+    },
+    "overrides": [
+      {
+        "files": ["src/tests/**/*.tests.js"],
+        "rules": {
+          "prefer-arrow-callback": "off",
+          "func-names": "off",
+          "max-lines-per-function": "off"
+        }
+      }
+    ]
+  }
+  
