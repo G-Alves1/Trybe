@@ -262,7 +262,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 33-1: _Introdução - Ciência da Computação_
 - [x] 33-1: _Aprendendo Python_
-- [ ] 33-2: _Entrada e Saída de dados_
+- [x] 33-2: _Entrada e Saída de dados_
 - [ ] 33-3: _Testes_
 - [ ] 33-4: _[Projeto - Job Insights]()_
 
