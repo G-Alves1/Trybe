@@ -49,6 +49,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-4: _JavaScript - Web Storage_
 - [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/G-Alves1/pixel-art)_
 - [x] 5-6: _[Projeto - Lista de tarefas](https://github.com/G-Alves1/todo-list)_
+- [ ] 5-7: Projeto - Meme Generator
+- [ ] 5-7: Projeto - Adivinhe a Cor
+- [ ] 5-7: Projeto - Carta Misteriosa
 
 ##### Bloco 6: HTML e CSS - Forms, Flexbox e Responsivo
 
