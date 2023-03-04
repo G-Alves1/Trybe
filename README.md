@@ -88,7 +88,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ---
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :heavy_check_mark:
 
 ##### Bloco 10: Introdução à React
 
@@ -96,31 +96,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 10-1: _Introdução - React_
 - [x] 10-1: _'Hello, world!' no React!_
 - [x] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Solar System]()_
+- [x] 10-3: _[Projeto - Solar System](https://github.com/G-Alves1/solar-system)_
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 11-1: _Components com estado e eventos_
 - [x] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto - Tryunfo]()_
+- [x] 11-3: _[Projeto - Tryunfo](https://github.com/G-Alves1/tryunfo)_
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
 - [x] 12-1: _Ciclo de vida de componentes em React_
 - [x] 12-2: _React Router_
-- [ ] 12-3: _[Projeto - TrybeTunes]()_
+- [x] 12-3: _[Projeto - TrybeTunes](https://github.com/G-Alves1/trybetunes)_
 
 ##### Bloco 13: Metodologias Ágeis
 
 - [x] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _[Projeto - Frontend Online Store]()_
+- [x] 13-2: _[Projeto - Frontend Online Store](https://github.com/G-Alves1/frontend-online-store)_
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
 - [x] 14-1: _RTL - Primeiros passos_
 - [x] 14-2: _RTL - Mocks e Inputs_
 - [x] 14-3: _RTL - Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [x] 14-4: _[Projeto - Testes em React](https://github.com/G-Alves1/react-testing-library)_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
@@ -129,22 +129,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 15-3: _Usando o Redux no React - Prática_
 - [x] 15-4: _Usando o Redux no React - Actions Assíncronas_
 - [x] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _[Projeto - Trybe Wallet]()_
+- [x] 15-6: _[Projeto - Trybe Wallet](https://github.com/G-Alves1/trybe-wallet)_
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [x] 16-1: _[Projeto - Jogo de Trivia](https://github.com/G-Alves1/trivia)_
 
 ##### Bloco 17: Context API e React Hooks
 
 - [x] 17-1: _React Hooks - useState e useEffect_
 - [x] 17-2: _Context API_
 - [x] 17-3: _Custom Hooks_
-- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/G-Alves1/starwars-planets-search)_
 
 ##### Bloco 18: Projeto App de Receitas
 
-- [ ] 18-1: _[Projeto - App de Receitas]()_
+- [x] 18-1: _[Projeto - App de Receitas](https://github.com/G-Alves1/recipes-app)_
 
 ---
 
