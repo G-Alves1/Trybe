@@ -148,14 +148,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ---
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :heavy_check_mark:
 
 ##### Bloco 19: Docker: Utilizando Containers
 - [x] 19-1: _Introdução - Back-end_
 - [x] 19-1: _Utilizando Containers - Docker_
 - [x] 19-2: _Manipulação e Criação de Imagens no Docker_
 - [x] 19-3: _Orquestrando Containers com Docker Compose_
-- [ ] 19-4: _[Projeto - Docker Todo-List]()_
+- [x] 19-4: _[Projeto - Docker Todo-List](https://github.com/G-Alves1/docker-todo-list)_
 
 ##### Bloco 20: Introdução à SQL
 
@@ -164,14 +164,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 20-2: _Encontrando dados em um banco de dados_
 - [x] 20-3: _Filtrando dados de forma específica_
 - [x] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [x] 20-5: _[Projeto - All For One](https://github.com/G-Alves1/all-for-one)_
 
 ##### Bloco 21: Funções SQL, Joins e Normalização
 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs_
 - [x] 21-3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-4: _[Projeto - One For All]()_
+- [x] 21-4: _[Projeto - One For All](https://github.com/G-Alves1/one-for-all)_
 
 ##### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
 
@@ -181,7 +181,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
 - [x] 22-4: _Express - HTTP com Node.js_
 - [x] 22-5: _Express - Middlewares_
-- [ ] 22-6: _[Projeto - Talker Manager]()_
+- [x] 22-6: _[Projeto - Talker Manager](https://github.com/G-Alves1/talker-manager)_
 
 ##### Bloco 23: NodeJS - Camada de Serviço e Arquitetura Rest e Restful
 
@@ -190,7 +190,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 23-2: _Arquitetura de Software - Camada de Controller e Service_
 - [x] 23-3: _Arquitetura Web - Rest e Restful_
 - [x] 23-4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 23-5: _[Projeto - Store Manager]()_
+- [x] 23-5: _[Projeto - Store Manager](https://github.com/G-Alves1/store-manager)_
 
 ##### Bloco 24: Node.js: ORM e Autenticação
 
@@ -199,14 +199,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 24-2: _ORM - Associations_
 - [x] 24-3: _JWT - JSON Web Token_
 - [x] 24-4: _Testando APIs com Testes de Integração_
-- [ ] 24-5: _[Projeto - API de Blogs]()_
+- [x] 24-5: _[Projeto - API de Blogs](https://github.com/G-Alves1/blogs-api)_
 
 ##### Bloco 25: Deployment
 
 - [x] 25-1: _Introdução - Deploy_
 - [x] 25-1: _Infraestrutura - Deploy com Heroku_
 - [x] 25-2: _Deploy Docker & Heroku_
-- [ ] 25-3: _[Projeto - Stranger Things]()_
+- [x] 25-3: _Projeto - Stranger Things_
 
 ##### Bloco 26: TypeScript
 
@@ -214,7 +214,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 26-1: _Introdução ao TypeScript_
 - [x] 26-2: _Tipagem Estática e Generics_
 - [x] 26-3: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybe Smith]()_
+- [x] 26-4: _[Projeto - Trybe Smith](https://github.com/G-Alves1/trybe-smith)_
 
 ##### Bloco 27: Programação Orientada a Objetos e SOLID
 
@@ -223,11 +223,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 27-3: _Polimorfismo_
 - [x] 27-4: _SOLID - Introdução e Princípios S, O e D_
 - [x] 27-5: _SOLID - Princípios L e I_
-- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
+- [x] 27-6: _[Projeto - Trybers and Dragons](https://github.com/G-Alves1/trybers-and-dragons)_
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [x] 28-1: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/G-Alves1/trybe-futebol-clube)_
 
 ##### Bloco 29: Introdução ao MongoDB
 
@@ -237,17 +237,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 29-3: _Operadores de consulta_
 - [x] 29-4: _Updates Simples_
 - [x] 29-5: _Updates Complexos - Arrays_
-- [ ] 29-6: _[Projeto - Commerce]()_
+- [x] 29-6: _[Projeto - Commerce](https://github.com/G-Alves1/commerce)_
 
 ##### Bloco 30: MongoDB com Node.js e POO
 
 - [x] 30-1: _Mongoose e arquitetura MSC(camada Model)_
 - [x] 30-2: _Mongoose e arquitetura MSC(camada Service e Controller)_
-- [ ] 30-3: _[Projeto - Car Shop]()_
+- [x] 30-3: _[Projeto - Car Shop](https://github.com/G-Alves1/car-shop)_
 
 ##### Bloco 31: Projeto - App de Delivery
 
-- [ ] 31-1: _[Projeto - App de Delivery]()_
+- [x] 31-1: _[Projeto - App de Delivery](https://github.com/G-Alves1/app-delivery)_
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
 
