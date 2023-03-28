@@ -247,7 +247,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 31: Projeto - App de Delivery
 
-- [x] 31-1: _[Projeto - App de Delivery](https://github.com/xitusz/app-delivery)_
+- [x] 31-1: _[Projeto - App de Delivery](https://github.com/xitusz/delivery-app)_
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
 
