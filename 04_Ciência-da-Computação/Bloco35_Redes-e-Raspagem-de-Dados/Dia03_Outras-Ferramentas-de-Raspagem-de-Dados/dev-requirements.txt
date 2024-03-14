@@ -1,7 +1,7 @@
 async-generator==1.10
 attrs==22.1.0
 beautifulsoup4==4.11.1
-certifi==2022.9.14
+certifi==2023.7.22
 cffi==1.15.1
 charset-normalizer==2.0.12
 cryptography==38.0.1
